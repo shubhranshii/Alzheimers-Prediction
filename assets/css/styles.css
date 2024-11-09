@@ -1,0 +1,76 @@
+h1,h2 {
+    color: #3f5c87;
+}
+
+h3 {
+    color: #3f5c87;
+    font-size:1.393rem;
+}
+
+p { 
+    color: #e4eef7;
+    text-shadow: 0px 0px #ffffff99;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+footer {
+    visibility: hidden;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.team-member {
+    background-color: #f0f8ff;;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 200px;
+    height: 130px;
+}
+
+.team-member h3 {
+    color: #003366; /* Dark blue for the name for better contrast */
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    color: #555555; /* Soft gray color for the enrollment or description text */
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #00000050;
+}
+
+.st-emotion-cache-1x5kdwo {
+    background-color: #003366;
+}
